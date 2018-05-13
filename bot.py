@@ -1,5 +1,7 @@
 import discord
 
+TOKEN = 'NDQ0ODkwNDA5MDU1ODEzNjMy.Ddiniw.tAIyUK7T65cQIbrRf_ibgPLqP64'
+
 client = discord.Client()
 
 @client.event
@@ -19,4 +21,4 @@ async def on_ready():
     print(client.user.id)
     print('------')
 
-client.run(process.env.BOT_TOKEN)
+client.run(TOKEN)
